@@ -1,0 +1,77 @@
+@import url(normalize.css);
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  background: darkcyan;
+}
+
+.text-container h1,
+.text-container p {
+  display: flex;
+  justify-content: center;
+  color: rgb(22, 113, 113);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.text-container h1 {
+  font-size: 6rem;
+}
+
+.text-container p {
+  font-size: 3rem;
+  transform: translateY(-4rem);
+}
+
+.container {
+  background: rgb(17, 171, 171);
+  max-width: 400px;
+  color: white;
+  margin: 6rem auto 0 auto;
+  box-shadow: 9px 6px 120px -20px, rgba(140, 133, 140, 1);
+  box-shadow: inset 160px 166px 18px -166px rgba(0, 0, 0, 0.75);
+}
+
+#display {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+  box-shadow: inset 160px 166px 18px -166px rgba(0, 0, 0, 0.75);
+}
+
+.button {
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#equal {
+  background-color: rgb(44, 199, 213);
+  color: white;
+}
+
+.button:hover {
+  background-color: #323330;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
